@@ -1,0 +1,8 @@
+#.gitignore
+
+
+*.parquet
+*.csv
+*.xlsx
+*.html
+*.zip
