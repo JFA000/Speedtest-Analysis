@@ -17,7 +17,6 @@ def load_and_process_data(file_names):
         dfs.append(df)
     
     combined_df = pd.concat(dfs, ignore_index=True)
-    combined_df = gpd.GeoDataFrame(combined_df, geometry='geometry', crs="EPSG:4326")
     return combined_df
 
 def perform_spatial_join(df_geo, distritos_sp):
