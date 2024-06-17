@@ -2,7 +2,7 @@
 
 
 *.parquet
-*.csv
-*.xlsx
 *.html
 *.zip
+dados_completos_por_municipio.xlsx
+idh_municipios_ibge.xlsx
