@@ -5,7 +5,8 @@ downloaded_files = [
     '2023-01-01_performance_fixed_tiles.parquet',
     '2023-04-01_performance_fixed_tiles.parquet',
     '2023-07-01_performance_fixed_tiles.parquet',
-    '2023-10-01_performance_fixed_tiles.parquet'
+    '2023-10-01_performance_fixed_tiles.parquet',
+    '2024-01-01_performance_fixed_tiles.parquet'
 ]
 
 # Mapeamento de meses para trimestres
