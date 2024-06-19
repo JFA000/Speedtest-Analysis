@@ -1,2 +1,0 @@
-# Municipios
-Todos os municipios contidos nesta pasta foram obtidos através do site do (IBGE)[https://www.ibge.gov.br/cidades-e-estados/], sendo eles divididos pelos estados, baixamos cada um deles manualmente e então removemos as informações desnecessárias para a nossa pesquisa.
