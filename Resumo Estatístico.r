@@ -35,9 +35,11 @@ resumo_list <- lapply(numeric_cols, function(col) {
 resumo_df <- do.call(rbind, resumo_list)
 rownames(resumo_df) <- colnames(numeric_cols)
 
-# Arredondar os valores para duas casas decimais, exceto para o IDHM (3 casas decimais)
-resumo_df <- resumo_df %>% mutate(across(where(is.numeric), round, 2))
-resumo_df["IDHM", ] <- format(round(resumo_df["IDHM", ], 3), nsmall = 3)
+# Arredondar os valores para duas casas decimais, exceto para o IDHM
+resumo_df <- resumo_df %>% mutate(across(where(is.numeric), ~ifelse(rownames(resumo_df) == "IDHM", ., round(., 2))))
+
+# Ajustar os valores de IDHM para três casas decimais
+resumo_df["IDHM", ] <- sprintf("%.3f", as.numeric(resumo_df["IDHM", ]))
 
 # Ajustar os nomes das colunas
 colnames(resumo_df) <- c("Mínimo", "1º Quartil", "Mediana", "Média", "3º Quartil", "Máximo", "Desvio Padrão")
@@ -47,5 +49,5 @@ tabela <- tableGrob(resumo_df)
 
 # Salvar a tabela como uma imagem PNG
 png("resumo_estatistico.png", width = 1200, height = 800)
-grid.draw(tabela)
+grid::grid.draw(tabela)
 dev.off()
