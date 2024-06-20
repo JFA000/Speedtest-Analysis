@@ -2,7 +2,7 @@ import os
 
 # Lista de arquivos baixados
 downloaded_files = [
-    '2021-01-01_performance_fixed_tiles.parquet',
+    '2021-10-01_performance_fixed_tiles.parquet',
 ]
 
 # Mapeamento de meses para trimestres
