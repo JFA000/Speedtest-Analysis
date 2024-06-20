@@ -39,7 +39,7 @@ rownames(resumo_df) <- colnames(numeric_cols)
 resumo_df <- resumo_df %>% mutate(across(where(is.numeric), round, 2))
 resumo_df["IDHM", ] <- format(round(resumo_df["IDHM", ], 3), nsmall = 3)
 
-# Ajustar os nomes das colunas para refletir as estatísticas em português
+# Ajustar os nomes das colunas
 colnames(resumo_df) <- c("Mínimo", "1º Quartil", "Mediana", "Média", "3º Quartil", "Máximo", "Desvio Padrão")
 
 # Criar a tabela com gridExtra
