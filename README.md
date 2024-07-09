@@ -22,10 +22,6 @@ Aqui está como exemplo algumas imagens relacionadas à análise:
 ![Correlação das velocidades de download e de upload da internet](Midia/correlacao_upload_download.png)
 *Figura 2: Correlação entre as velocidades de download e upload da internet no Brasil em 2021*
 
-
-## Licença
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
 ---
 
 **Nota**: Para mais informações sobre o dataset com os relatórios da Speedtest utilizados, visite repositório [ookla-open-data](https://github.com/teamookla/ookla-open-data).
