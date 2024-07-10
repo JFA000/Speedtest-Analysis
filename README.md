@@ -2,10 +2,12 @@
 
 Neste repositório, apresentamos uma análise das distribuições de velocidades de download de internet no Brasil com base nos testes realizados pela Speedtest durante o ano de 2021. O objetivo é comparar as velocidades de download de internet com o Índice de Desenvolvimento Humano (IDH) no mesmo período.
 
-## Sobre o Speedtest
+## Fontes de dados
+
+### Speedtest
 Speedtest é uma ferramenta popular desenvolvida pela Ookla para medir a velocidade de conexão de internet. Através de sua plataforma, usuários ao redor do mundo podem testar a velocidade de download e upload de suas conexões, bem como a latência. Esses dados são então compilados para fornecer uma visão abrangente do desempenho da internet em diferentes regiões.
 
-## Sobre o IBGE
+### IBGE
 O Instituto Brasileiro de Geografia e Estatística (IBGE) é a principal agência de estatísticas do Brasil. O IBGE é responsável pela coleta, análise e disseminação de dados demográficos, sociais e econômicos. Entre suas diversas atribuições, o IBGE calcula o Índice de Desenvolvimento Humano (IDH) dos estados brasileiros.
 
 ## Objetivo da Análise
